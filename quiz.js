@@ -6,68 +6,83 @@
 
 // * **BONUS:** Keep track of the user's score.
 
-// creat question array
-var questions = [ {
+// each object in array has a q and a property with strings in the q object
+// and a value of "True" or "False" for the correct answer.
+var questions = [
+  {
     q: "Was the 2012 theme 'House of Horrors', True or False?",
-    a: "True"
-},
-{
+    a: "True",
+  },
+  {
     q: "Was the 2012 theme 'House of Horrors', True or False?",
-    a: "True"
-},
-{
+    a: "True",
+  },
+  {
     q: "Lunging Pumpkin Carver first came out in 2015, True or False.",
-    a: "False, it was 2016"
-},
-{
+    a: "False",
+  },
+  {
     q: "Jumping Spider has come back every year since 2013, True or False.",
-    a: "True"
-},
-{
+    a: "True",
+  },
+  {
     q: "Was the 2013 theme 'Carnival of Horrors', True or False?",
-    a: "False, it was the theme in 2010-2011. The theme for 2013 was Spirit Asylum." 
-},
-{
+    a:
+      "False, it was the theme in 2010-2011. The theme for 2013 was Spirit Asylum.",
+  },
+  {
     q: "Spirit Halloween used to have a Zombie Flamingo, True or False.",
-    a: "True, from 2013 - 2018."
-},
-{
+    a: "True",
+  },
+  {
     q: "Cerberus was an animatronic since 2015, True or False.",
-    a: "True"
-},
-{
+    a: "True",
+  },
+  {
     q: "Was the 2014 theme 'The Attic', True or False?",
-    a: "True"
-},
-{
-    q: "Twitching Banshee is one of mama's favorite animatronics, True or False.",
-    a: "False"
-},
-{
+    a: "True",
+  },
+  {
+    q:
+      "Twitching Banshee is one of mama's favorite animatronics, True or False.",
+    a: "False",
+  },
+  {
     q: "Caspian has a crush on Abandoned Annie, True or False",
-    a: "True😂"
-},
-{
+    a: "True",
+  },
+  {
     q: "Zephyr has a crush on the Hauntress, True or False",
-    a: "True🤣"
-}
+    a: "True",
+  },
 ];
 
-// initialize score to 0
 var score = 0;
 
 // for each question in the question array
 for (var i = 0; i < questions.length; i++) {
-    if ()
+  var answer = confirm(questions[i].q);
 
+  // if user answer is correct
+  var isCorrect =
+    (answer === true && questions[i].a === "True") ||
+    (answer === false && questions[i].a === "False");
+
+  if (isCorrect) {
+    score = score + 1;
+    alert("Correct!👽");
+  } else {
+    alert("Incorrect! 🤡");
+  }
+
+  // alert "You answered 3 out of 5 questions correctly."
 }
-// display the question
-// get the user answer
-// if user answer is correct
-// add 1 to score
-// alert "correct"
-// if user answer is incorrect
-// alert "incorrect"
-// end for each question loop
 
-// alert "You answered 3 out of 5 questions correctly."
+var resultText =
+  "👻You answered " +
+  score +
+  " out of " +
+  questions.length +
+  " questions correctly!👻";
+  
+alert(resultText);
