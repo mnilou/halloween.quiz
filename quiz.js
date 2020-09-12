@@ -11,8 +11,8 @@
 setTimeout(function() {
 var questions = [
   {
-    q: "Was the 2012 theme 'House of Horrors', True or False?",
-    a: "True",
+    q: "Lost Her Way was in the S.S. Rip Tide theme , True or False",
+    a: "False",
   },
   {
     q: "Was the 2012 theme 'House of Horrors', True or False?",
@@ -29,7 +29,7 @@ var questions = [
   {
     q: "Was the 2013 theme 'Carnival of Horrors', True or False?",
     a:
-      "False, it was the theme in 2010-2011. The theme for 2013 was Spirit Asylum.",
+      "False",
   },
   {
     q: "Spirit Halloween used to have a Zombie Flamingo, True or False.",
