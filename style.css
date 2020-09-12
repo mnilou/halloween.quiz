@@ -34,7 +34,10 @@ background-color: black;
     margin: 30%;
 }
 @media screen and (max-width: 1195px) {
-    .section2 {
+    .section3 {
       width: 100%;
+    }
+    .img {
+        padding: 20px;
     }
   }
