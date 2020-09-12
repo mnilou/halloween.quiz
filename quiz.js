@@ -8,6 +8,7 @@
 
 // each object in array has a q and a property with strings in the q object
 // and a value of "True" or "False" for the correct answer.
+setTimeout(function() {
 var questions = [
   {
     q: "Was the 2012 theme 'House of Horrors', True or False?",
@@ -84,3 +85,4 @@ var resultText =
   " questions correctly!👻";
 
 alert(resultText);
+}, 20000);

@@ -1,4 +1,6 @@
 # halloween.quiz
+NEED TO FIX MEDIA QUERY
+DELAY QUIZ
 
 * _None_
 
