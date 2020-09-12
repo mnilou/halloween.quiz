@@ -1,6 +1,6 @@
 # halloween.quiz
 NEED TO FIX MEDIA QUERY
-DELAY QUIZ
+DELAY QUIZ--DOESN'T WORK ON PHONE
 
 * _None_
 
