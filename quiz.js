@@ -86,3 +86,12 @@ var resultText =
 
 alert(resultText);
 }, 20000);
+
+function replayQuiz(){
+  highscoreContainer.style.display = "none";
+  gameoverDiv.style.display = "none";
+  startQuizDiv.style.display = "flex";
+  timeLeft = 76;
+  score = 0;
+  currentQuestionIndex = 0;
+}
