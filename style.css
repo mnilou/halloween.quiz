@@ -5,3 +5,17 @@ margin: 0, auto
 h1 {
 background-color: black;
 }
+.section1 {
+    background-color:  rgb(42, 138, 23);
+    padding: 20px;
+}
+.section2 {
+    margin-top: 1em;
+    border:  rgb(245, 102, 35) solid;
+    background-color: rgb(245, 102, 35);
+    padding: 50px;
+}
+
+.img {
+    margin: 30%;
+}
